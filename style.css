@@ -1,0 +1,359 @@
+    /*nav start*/
+body{
+    margin: 10px;
+    padding: 0px;
+    background-image: linear-gradient(to right,rgb(7, 206, 7),rgb(2, 99, 2));
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+li{
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+button{
+    border-radius: 15px;
+    color: black;
+    border-radius: 2px solid black;
+    box-shadow: 2px 2px 4px 4px whitesmoke;
+    font-size: 18px;
+    padding: 4px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+img{
+    padding-left: 50px;
+}
+/*nav end*/
+/*hero start*/
+h3{
+    font-size: 18px;
+    color: white;
+    
+}
+h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+P{
+    color: white;
+    text-align:left;
+    
+    
+}
+.herobutton{
+    font-size: 24px;
+    color: white;
+    background-color: red;
+    border: 2px solid black;
+    box-shadow: 0px 0px 0px 0px green;
+    border-radius: 0px;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidesection{
+    padding-top: 10%;
+    padding-right: 10%; 
+}
+.sameline{
+    display: flex;
+    float: left;
+    justify-content: space-between;
+}
+span{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+/*hero end*/
+/*favourite section start*/
+.boxhead{
+   display: flex;
+   justify-content: space-around;
+   float: left;
+}
+/*favourite section start*/
+/*About section start*/
+/* About section */
+.Abouthead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10%;
+    padding: 40px;
+}
+
+.About{
+    flex: 1;
+    color: white;
+}
+
+.Aboutimg{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.Aboutimg img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/*About section end*/
+/*Trick section start*/
+
+
+/* Trick or Treat Section */
+.trick {
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.trick .title {
+  font-size: 28px;
+  margin-bottom: 30px;
+   text-align: center;
+}
+
+.trick-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+   text-align: center;
+}
+.card {
+     text-align: center;
+  background: green;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+   text-align: center;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 8px 8px rgba(21, 33, 0, 0.496);
+}
+.price {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+
+}
+/*Trick section end*/
+/*Big section start*/
+/* Big Discount Section */
+.big {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: green;
+  padding: 20px;
+  border-radius: 10px;
+  height: 200px;
+  width: 70%;
+  margin-left: 15%;
+  border: 2px solid rgb(4, 194, 4);
+}
+
+.big img {
+  height: 210px;
+  width: 25%;
+  padding: 10px;
+}
+
+.big h2 {
+  color: white;
+  padding: 10px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.btnbig {
+  background: red;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  box-shadow: 0px 0px 0px 0px green;
+}
+
+/*Big section end*/
+/* New Arrivals Section */
+.new {
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.new .title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.new-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.new-card {
+  background: green;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 180px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.new-card:hover {
+  transform: translateY(-5px);
+}
+
+.new-card img {
+  width: 180px;
+  height: 100px;
+  padding-right: 80px;
+}
+
+.price {
+  color: white;
+  font-weight: bold;
+}
+
+.tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+/* New Arrivals Section end */
+/* Newsletter Section  start*/
+.newsletter {
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.newsletter h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.newsletter-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.newsletter-box input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  font-size: 14px;
+}
+
+.btn-subscribe {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border: solid black;
+  font-size: 14px;
+  box-shadow: 0px 0px 0px 0px green;
+}
+/* Newsletter Section  start*/
+/* Footer Section start*/
+.footer {
+  background: #1f2f1b;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-logo h2 {
+  margin-bottom: 10px;
+}
+
+.footer-links h3,
+.footer-social h3 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: orange;
+}
+
+.footer-social a {
+  margin: 0 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  color: orange;
+}
+
+.footer-bottom {
+  margin-top: 15px;
+  font-size: 14px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+/*footer section end*/
